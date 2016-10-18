@@ -154,7 +154,7 @@
 
             <build>
                 <plugins>
-                    <!-- java 8 doclint html verification is excluded to suppress strict HTML 4.0 compliance errors 
+                    <!-- java 8 doclint html verification is excluded to suppress strict HTML 4.0 compliance errors
                          like "error: self-closing element not allowed <p />"   -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -281,7 +281,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.4.1</version>
+                <version>2.5.3</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <mavenExecutorId>forked-path</mavenExecutorId>
